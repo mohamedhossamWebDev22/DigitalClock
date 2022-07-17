@@ -25,3 +25,21 @@ body{
 
     padding: 14px 15px;
 }
+
+.alarm{
+    font-family: sans-serif;
+    font-size: 50px;
+
+    padding: 14px 15px;
+}
+.alarm button{
+    font-size: 40px;
+
+    padding: 10px 30px;
+
+    background-color: rgb(31, 27, 27);
+    color: white;
+
+    border-radius: 50px;
+    border: 1px solid lightblue;
+}
