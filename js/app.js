@@ -11,12 +11,16 @@ function updateTime() {
 }
 
 setInterval(updateTime, 1000);
+//The Clock.
+
 
 const aud = document.getElementById("alaSound");
 
 let txt = document.getElementById("clock"),
     btn = document.getElementById("btn");
 
+
+//The alarm.
 btn.onclick = function () {
     let alarmBtn = prompt("بعد كم دقيقة عايزه يرن؟؟"),
         sec = ((alarmBtn * 60)* 1000);
@@ -25,6 +29,5 @@ btn.onclick = function () {
 
     setTimeout(() => {
         aud.play();
-        alert("Alaaaaaaaarm!!");
     }, sec);
 }
